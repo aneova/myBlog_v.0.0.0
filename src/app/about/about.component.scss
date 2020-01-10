@@ -1,0 +1,36 @@
+
+.row{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.col1 {
+  width: 600px;
+  border: 2px #cccccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.col2{
+  width:500px;
+  border-radius: 5px;
+  border: 2px #cccccc;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  font-family: Cambria;
+  font-size: 20px;
+
+  span.completed {
+    text-decoration: line-through;
+  }
+}
+
+
+img {
+  display: block;
+  width: 500px;
+  height: auto;
+}
