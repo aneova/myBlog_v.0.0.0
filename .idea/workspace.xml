@@ -16,7 +16,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/about/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -24,12 +24,14 @@
     <property name="ts.external.directory.path" value="C:\Users\Annega\WebstormProjects\myBlog\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Annega\WebstormProjects\myBlog\src\app\about\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Annega\WebstormProjects\myBlog\images" />
       <recent name="C:\Users\Annega\WebstormProjects\myBlog\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Annega\WebstormProjects\myBlog\src\app" />
+      <recent name="C:\Users\Annega\WebstormProjects\myBlog\src\app\shared" />
+      <recent name="C:\Users\Annega\WebstormProjects\myBlog\src\app\about\images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -87,6 +89,7 @@
       <workItem from="1578592594579" duration="12595000" />
       <workItem from="1578669561827" duration="7708000" />
       <workItem from="1578682863699" duration="4485000" />
+      <workItem from="1578688621601" duration="4637000" />
     </task>
     <servers />
   </component>
@@ -98,10 +101,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578597430114" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578658769844">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1578689568730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578658769844" />
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578689568730" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578593181766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

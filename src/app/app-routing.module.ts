@@ -8,6 +8,7 @@ import {AboutExtraComponent} from './about-extra/about-extra.component';
 import {TodosComponent} from './todos/todos.component';
 import {TodoFormComponent} from './todo-form/todo-form.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import {PlayerComponent} from './player/player.component';
 
 
 
@@ -16,6 +17,7 @@ const routes: Routes = [
     {path: 'about', component: AboutComponent},
     {path: 'todos', component: TodosComponent},
     {path: 'todosform', component: TodoFormComponent},
+    {path: 'player', component: PlayerComponent},
     {path: 'posts', component: PostsComponent},
     {path: 'posts/:id', component: PostComponent},
     {path: 'about/extra', component: AboutExtraComponent},

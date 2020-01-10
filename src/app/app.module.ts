@@ -14,8 +14,14 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 import {TodosComponent} from './todos/todos.component';
 import {TodoFormComponent} from './todo-form/todo-form.component';
 import {TodosFlterPipe} from './shared/todos-flter.pipe';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-
+import {HttpClientModule} from '@angular/common/http';
+import { PlayerComponent } from './player/player.component';
+import { MaterialModule } from './material.module';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule, MatListModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -28,14 +34,23 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
       TodosComponent,
       TodoFormComponent,
       TodosFlterPipe,
-    ErrorPageComponent
+    ErrorPageComponent,
+    PlayerComponent
   ],
     imports: [
         BrowserModule,
         FormsModule,
         RouterModule,
         AppRoutingModule,
-        HttpClientModule
+        HttpClientModule,
+        MaterialModule,
+        MatToolbarModule,
+        BrowserAnimationsModule,
+        MatProgressBarModule,
+        MatIconModule,
+        MatListModule,
+        MatButtonModule,
+        // MatProgressBarModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
