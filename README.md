@@ -1,2 +1,2 @@
 # myBlog
- The source code of my angulr blog.
+ The source code of my Angular blog.
