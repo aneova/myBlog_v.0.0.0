@@ -40,6 +40,20 @@ export class PlayerComponent implements OnInit {
     this.state = false;
   }
 
+  OnNext(id: number) {
+    this.listMusic.onplay(id + 1);
+    this.state = true;
+    this.currentId = id + 1;
+    this.currentFile  = this.listMusic.getTrackName(id+1);
+  }
+
+  OnPrev(id: number) {
+    this.listMusic.onplay(id - 1);
+    this.currentFile  = this.listMusic.getTrackName(id-1);
+    this.state = true;
+    this.currentId = id - 1;
+  }
+
   getLenght(): number {
     this.currentValue = this.listMusic.getlenght();
     return  this.currentValue;

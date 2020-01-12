@@ -1,4 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, ComponentFactoryResolver, ViewChild} from '@angular/core';
+import {ModelWindowComponent} from './model-window/model-window.component';
+import {RefDirective} from './ref.directive';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +8,11 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor() {}
+  @ViewChild(RefDirective, {static: false, 'static:false'} ) refDir: RefDirective
+  constructor(private resolver: ComponentFactoryResolver ) {}
+
+  showWindow() {
+    this.resolver.resolveComponentFactory(ModelWindowComponent);
+  }
 }
 

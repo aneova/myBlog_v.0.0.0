@@ -6,7 +6,7 @@
         <mat-progress-bar
                 class="audio-progress-bar"  name="mbar" mode="determinate " (click)="getPosition()" [value]="listMusic.myDate|async">
         </mat-progress-bar>
-        <button mat-button  (click)="OnPause(currentId)">
+        <button mat-button  (click)="OnPrev(currentId)">
             <mat-icon mat-list-icon>fast_rewind</mat-icon>
         </button>
 
@@ -17,7 +17,7 @@
             <mat-icon mat-list-icon>pause</mat-icon>
         </button>
 
-        <button mat-button  (click)="OnPause(currentId)">
+        <button mat-button  (click)="OnNext(currentId)">
             <mat-icon mat-list-icon>fast_forward</mat-icon>
         </button>
         <button mat-button (click)="OnStop(currentId)">

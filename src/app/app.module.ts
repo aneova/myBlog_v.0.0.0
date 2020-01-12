@@ -22,6 +22,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule, MatListModule} from '@angular/material';
+import { ModelWindowComponent } from './model-window/model-window.component';
+import {RefDirective} from './ref.directive';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import {MatButtonModule, MatListModule} from '@angular/material';
       TodoFormComponent,
       TodosFlterPipe,
     ErrorPageComponent,
-    PlayerComponent
+    PlayerComponent,
+    ModelWindowComponent,
+      RefDirective
   ],
     imports: [
         BrowserModule,
