@@ -1,16 +1,24 @@
 <!-- My first angular player -->
 <div class="row">
 <div [ngClass]="{'terminal':backgroundToggle, 'terminal-red': !backgroundToggle}" >
-    <pre>{{ currentFile }}</pre>
+    <pre> {{ listMusic.strTime }}  {{ currentFile }}</pre>
     <mat-toolbar color="basic">
         <mat-progress-bar
-                class="audio-progress-bar" mode="bufer" [value]="currentValue">
+                class="audio-progress-bar"  name="mbar" mode="determinate " (click)="getPosition()" [value]="listMusic.myDate|async">
         </mat-progress-bar>
-        <button mat-button color="primary" (click)="OnPlay(currentId)" [disabled]="state" *ngIf="!state">
+        <button mat-button  (click)="OnPause(currentId)">
+            <mat-icon mat-list-icon>fast_rewind</mat-icon>
+        </button>
+
+        <button mat-button  (click)="OnPlay(currentId)" [disabled]="state" *ngIf="!state">
             <mat-icon mat-list-icon>play_circle_filled</mat-icon>
         </button>
         <button mat-button color="accent" (click)="OnPause(currentId)" *ngIf="state">
             <mat-icon mat-list-icon>pause</mat-icon>
+        </button>
+
+        <button mat-button  (click)="OnPause(currentId)">
+            <mat-icon mat-list-icon>fast_forward</mat-icon>
         </button>
         <button mat-button (click)="OnStop(currentId)">
             <mat-icon mat-list-icon>stop_circle_filled</mat-icon>
@@ -18,8 +26,10 @@
     </mat-toolbar>
 </div>
 
+<hr style="width: 600px;margin:0px;">
 <strong> Playlist </strong>
 <div *ngFor="let f of listMusic.files">
     <p class="musicList" (click)="OnPlay(f.id)">{{f.name}} {{f.artist}}</p>
 </div>
 </div>
+<p> {{ currentValue }} </p>

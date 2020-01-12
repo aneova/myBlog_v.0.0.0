@@ -23,6 +23,292 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
+/*!**************************************************!*\
+  !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./af": "./node_modules/moment/locale/af.js",
+	"./af.js": "./node_modules/moment/locale/af.js",
+	"./ar": "./node_modules/moment/locale/ar.js",
+	"./ar-dz": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-dz.js": "./node_modules/moment/locale/ar-dz.js",
+	"./ar-kw": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-kw.js": "./node_modules/moment/locale/ar-kw.js",
+	"./ar-ly": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ly.js": "./node_modules/moment/locale/ar-ly.js",
+	"./ar-ma": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-ma.js": "./node_modules/moment/locale/ar-ma.js",
+	"./ar-sa": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-sa.js": "./node_modules/moment/locale/ar-sa.js",
+	"./ar-tn": "./node_modules/moment/locale/ar-tn.js",
+	"./ar-tn.js": "./node_modules/moment/locale/ar-tn.js",
+	"./ar.js": "./node_modules/moment/locale/ar.js",
+	"./az": "./node_modules/moment/locale/az.js",
+	"./az.js": "./node_modules/moment/locale/az.js",
+	"./be": "./node_modules/moment/locale/be.js",
+	"./be.js": "./node_modules/moment/locale/be.js",
+	"./bg": "./node_modules/moment/locale/bg.js",
+	"./bg.js": "./node_modules/moment/locale/bg.js",
+	"./bm": "./node_modules/moment/locale/bm.js",
+	"./bm.js": "./node_modules/moment/locale/bm.js",
+	"./bn": "./node_modules/moment/locale/bn.js",
+	"./bn.js": "./node_modules/moment/locale/bn.js",
+	"./bo": "./node_modules/moment/locale/bo.js",
+	"./bo.js": "./node_modules/moment/locale/bo.js",
+	"./br": "./node_modules/moment/locale/br.js",
+	"./br.js": "./node_modules/moment/locale/br.js",
+	"./bs": "./node_modules/moment/locale/bs.js",
+	"./bs.js": "./node_modules/moment/locale/bs.js",
+	"./ca": "./node_modules/moment/locale/ca.js",
+	"./ca.js": "./node_modules/moment/locale/ca.js",
+	"./cs": "./node_modules/moment/locale/cs.js",
+	"./cs.js": "./node_modules/moment/locale/cs.js",
+	"./cv": "./node_modules/moment/locale/cv.js",
+	"./cv.js": "./node_modules/moment/locale/cv.js",
+	"./cy": "./node_modules/moment/locale/cy.js",
+	"./cy.js": "./node_modules/moment/locale/cy.js",
+	"./da": "./node_modules/moment/locale/da.js",
+	"./da.js": "./node_modules/moment/locale/da.js",
+	"./de": "./node_modules/moment/locale/de.js",
+	"./de-at": "./node_modules/moment/locale/de-at.js",
+	"./de-at.js": "./node_modules/moment/locale/de-at.js",
+	"./de-ch": "./node_modules/moment/locale/de-ch.js",
+	"./de-ch.js": "./node_modules/moment/locale/de-ch.js",
+	"./de.js": "./node_modules/moment/locale/de.js",
+	"./dv": "./node_modules/moment/locale/dv.js",
+	"./dv.js": "./node_modules/moment/locale/dv.js",
+	"./el": "./node_modules/moment/locale/el.js",
+	"./el.js": "./node_modules/moment/locale/el.js",
+	"./en-SG": "./node_modules/moment/locale/en-SG.js",
+	"./en-SG.js": "./node_modules/moment/locale/en-SG.js",
+	"./en-au": "./node_modules/moment/locale/en-au.js",
+	"./en-au.js": "./node_modules/moment/locale/en-au.js",
+	"./en-ca": "./node_modules/moment/locale/en-ca.js",
+	"./en-ca.js": "./node_modules/moment/locale/en-ca.js",
+	"./en-gb": "./node_modules/moment/locale/en-gb.js",
+	"./en-gb.js": "./node_modules/moment/locale/en-gb.js",
+	"./en-ie": "./node_modules/moment/locale/en-ie.js",
+	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
+	"./en-il": "./node_modules/moment/locale/en-il.js",
+	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-nz": "./node_modules/moment/locale/en-nz.js",
+	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./eo": "./node_modules/moment/locale/eo.js",
+	"./eo.js": "./node_modules/moment/locale/eo.js",
+	"./es": "./node_modules/moment/locale/es.js",
+	"./es-do": "./node_modules/moment/locale/es-do.js",
+	"./es-do.js": "./node_modules/moment/locale/es-do.js",
+	"./es-us": "./node_modules/moment/locale/es-us.js",
+	"./es-us.js": "./node_modules/moment/locale/es-us.js",
+	"./es.js": "./node_modules/moment/locale/es.js",
+	"./et": "./node_modules/moment/locale/et.js",
+	"./et.js": "./node_modules/moment/locale/et.js",
+	"./eu": "./node_modules/moment/locale/eu.js",
+	"./eu.js": "./node_modules/moment/locale/eu.js",
+	"./fa": "./node_modules/moment/locale/fa.js",
+	"./fa.js": "./node_modules/moment/locale/fa.js",
+	"./fi": "./node_modules/moment/locale/fi.js",
+	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fo": "./node_modules/moment/locale/fo.js",
+	"./fo.js": "./node_modules/moment/locale/fo.js",
+	"./fr": "./node_modules/moment/locale/fr.js",
+	"./fr-ca": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ca.js": "./node_modules/moment/locale/fr-ca.js",
+	"./fr-ch": "./node_modules/moment/locale/fr-ch.js",
+	"./fr-ch.js": "./node_modules/moment/locale/fr-ch.js",
+	"./fr.js": "./node_modules/moment/locale/fr.js",
+	"./fy": "./node_modules/moment/locale/fy.js",
+	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
+	"./gd": "./node_modules/moment/locale/gd.js",
+	"./gd.js": "./node_modules/moment/locale/gd.js",
+	"./gl": "./node_modules/moment/locale/gl.js",
+	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
+	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
+	"./gu": "./node_modules/moment/locale/gu.js",
+	"./gu.js": "./node_modules/moment/locale/gu.js",
+	"./he": "./node_modules/moment/locale/he.js",
+	"./he.js": "./node_modules/moment/locale/he.js",
+	"./hi": "./node_modules/moment/locale/hi.js",
+	"./hi.js": "./node_modules/moment/locale/hi.js",
+	"./hr": "./node_modules/moment/locale/hr.js",
+	"./hr.js": "./node_modules/moment/locale/hr.js",
+	"./hu": "./node_modules/moment/locale/hu.js",
+	"./hu.js": "./node_modules/moment/locale/hu.js",
+	"./hy-am": "./node_modules/moment/locale/hy-am.js",
+	"./hy-am.js": "./node_modules/moment/locale/hy-am.js",
+	"./id": "./node_modules/moment/locale/id.js",
+	"./id.js": "./node_modules/moment/locale/id.js",
+	"./is": "./node_modules/moment/locale/is.js",
+	"./is.js": "./node_modules/moment/locale/is.js",
+	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
+	"./it.js": "./node_modules/moment/locale/it.js",
+	"./ja": "./node_modules/moment/locale/ja.js",
+	"./ja.js": "./node_modules/moment/locale/ja.js",
+	"./jv": "./node_modules/moment/locale/jv.js",
+	"./jv.js": "./node_modules/moment/locale/jv.js",
+	"./ka": "./node_modules/moment/locale/ka.js",
+	"./ka.js": "./node_modules/moment/locale/ka.js",
+	"./kk": "./node_modules/moment/locale/kk.js",
+	"./kk.js": "./node_modules/moment/locale/kk.js",
+	"./km": "./node_modules/moment/locale/km.js",
+	"./km.js": "./node_modules/moment/locale/km.js",
+	"./kn": "./node_modules/moment/locale/kn.js",
+	"./kn.js": "./node_modules/moment/locale/kn.js",
+	"./ko": "./node_modules/moment/locale/ko.js",
+	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
+	"./ky": "./node_modules/moment/locale/ky.js",
+	"./ky.js": "./node_modules/moment/locale/ky.js",
+	"./lb": "./node_modules/moment/locale/lb.js",
+	"./lb.js": "./node_modules/moment/locale/lb.js",
+	"./lo": "./node_modules/moment/locale/lo.js",
+	"./lo.js": "./node_modules/moment/locale/lo.js",
+	"./lt": "./node_modules/moment/locale/lt.js",
+	"./lt.js": "./node_modules/moment/locale/lt.js",
+	"./lv": "./node_modules/moment/locale/lv.js",
+	"./lv.js": "./node_modules/moment/locale/lv.js",
+	"./me": "./node_modules/moment/locale/me.js",
+	"./me.js": "./node_modules/moment/locale/me.js",
+	"./mi": "./node_modules/moment/locale/mi.js",
+	"./mi.js": "./node_modules/moment/locale/mi.js",
+	"./mk": "./node_modules/moment/locale/mk.js",
+	"./mk.js": "./node_modules/moment/locale/mk.js",
+	"./ml": "./node_modules/moment/locale/ml.js",
+	"./ml.js": "./node_modules/moment/locale/ml.js",
+	"./mn": "./node_modules/moment/locale/mn.js",
+	"./mn.js": "./node_modules/moment/locale/mn.js",
+	"./mr": "./node_modules/moment/locale/mr.js",
+	"./mr.js": "./node_modules/moment/locale/mr.js",
+	"./ms": "./node_modules/moment/locale/ms.js",
+	"./ms-my": "./node_modules/moment/locale/ms-my.js",
+	"./ms-my.js": "./node_modules/moment/locale/ms-my.js",
+	"./ms.js": "./node_modules/moment/locale/ms.js",
+	"./mt": "./node_modules/moment/locale/mt.js",
+	"./mt.js": "./node_modules/moment/locale/mt.js",
+	"./my": "./node_modules/moment/locale/my.js",
+	"./my.js": "./node_modules/moment/locale/my.js",
+	"./nb": "./node_modules/moment/locale/nb.js",
+	"./nb.js": "./node_modules/moment/locale/nb.js",
+	"./ne": "./node_modules/moment/locale/ne.js",
+	"./ne.js": "./node_modules/moment/locale/ne.js",
+	"./nl": "./node_modules/moment/locale/nl.js",
+	"./nl-be": "./node_modules/moment/locale/nl-be.js",
+	"./nl-be.js": "./node_modules/moment/locale/nl-be.js",
+	"./nl.js": "./node_modules/moment/locale/nl.js",
+	"./nn": "./node_modules/moment/locale/nn.js",
+	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./pa-in": "./node_modules/moment/locale/pa-in.js",
+	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
+	"./pl": "./node_modules/moment/locale/pl.js",
+	"./pl.js": "./node_modules/moment/locale/pl.js",
+	"./pt": "./node_modules/moment/locale/pt.js",
+	"./pt-br": "./node_modules/moment/locale/pt-br.js",
+	"./pt-br.js": "./node_modules/moment/locale/pt-br.js",
+	"./pt.js": "./node_modules/moment/locale/pt.js",
+	"./ro": "./node_modules/moment/locale/ro.js",
+	"./ro.js": "./node_modules/moment/locale/ro.js",
+	"./ru": "./node_modules/moment/locale/ru.js",
+	"./ru.js": "./node_modules/moment/locale/ru.js",
+	"./sd": "./node_modules/moment/locale/sd.js",
+	"./sd.js": "./node_modules/moment/locale/sd.js",
+	"./se": "./node_modules/moment/locale/se.js",
+	"./se.js": "./node_modules/moment/locale/se.js",
+	"./si": "./node_modules/moment/locale/si.js",
+	"./si.js": "./node_modules/moment/locale/si.js",
+	"./sk": "./node_modules/moment/locale/sk.js",
+	"./sk.js": "./node_modules/moment/locale/sk.js",
+	"./sl": "./node_modules/moment/locale/sl.js",
+	"./sl.js": "./node_modules/moment/locale/sl.js",
+	"./sq": "./node_modules/moment/locale/sq.js",
+	"./sq.js": "./node_modules/moment/locale/sq.js",
+	"./sr": "./node_modules/moment/locale/sr.js",
+	"./sr-cyrl": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr-cyrl.js": "./node_modules/moment/locale/sr-cyrl.js",
+	"./sr.js": "./node_modules/moment/locale/sr.js",
+	"./ss": "./node_modules/moment/locale/ss.js",
+	"./ss.js": "./node_modules/moment/locale/ss.js",
+	"./sv": "./node_modules/moment/locale/sv.js",
+	"./sv.js": "./node_modules/moment/locale/sv.js",
+	"./sw": "./node_modules/moment/locale/sw.js",
+	"./sw.js": "./node_modules/moment/locale/sw.js",
+	"./ta": "./node_modules/moment/locale/ta.js",
+	"./ta.js": "./node_modules/moment/locale/ta.js",
+	"./te": "./node_modules/moment/locale/te.js",
+	"./te.js": "./node_modules/moment/locale/te.js",
+	"./tet": "./node_modules/moment/locale/tet.js",
+	"./tet.js": "./node_modules/moment/locale/tet.js",
+	"./tg": "./node_modules/moment/locale/tg.js",
+	"./tg.js": "./node_modules/moment/locale/tg.js",
+	"./th": "./node_modules/moment/locale/th.js",
+	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
+	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
+	"./tlh": "./node_modules/moment/locale/tlh.js",
+	"./tlh.js": "./node_modules/moment/locale/tlh.js",
+	"./tr": "./node_modules/moment/locale/tr.js",
+	"./tr.js": "./node_modules/moment/locale/tr.js",
+	"./tzl": "./node_modules/moment/locale/tzl.js",
+	"./tzl.js": "./node_modules/moment/locale/tzl.js",
+	"./tzm": "./node_modules/moment/locale/tzm.js",
+	"./tzm-latn": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm-latn.js": "./node_modules/moment/locale/tzm-latn.js",
+	"./tzm.js": "./node_modules/moment/locale/tzm.js",
+	"./ug-cn": "./node_modules/moment/locale/ug-cn.js",
+	"./ug-cn.js": "./node_modules/moment/locale/ug-cn.js",
+	"./uk": "./node_modules/moment/locale/uk.js",
+	"./uk.js": "./node_modules/moment/locale/uk.js",
+	"./ur": "./node_modules/moment/locale/ur.js",
+	"./ur.js": "./node_modules/moment/locale/ur.js",
+	"./uz": "./node_modules/moment/locale/uz.js",
+	"./uz-latn": "./node_modules/moment/locale/uz-latn.js",
+	"./uz-latn.js": "./node_modules/moment/locale/uz-latn.js",
+	"./uz.js": "./node_modules/moment/locale/uz.js",
+	"./vi": "./node_modules/moment/locale/vi.js",
+	"./vi.js": "./node_modules/moment/locale/vi.js",
+	"./x-pseudo": "./node_modules/moment/locale/x-pseudo.js",
+	"./x-pseudo.js": "./node_modules/moment/locale/x-pseudo.js",
+	"./yo": "./node_modules/moment/locale/yo.js",
+	"./yo.js": "./node_modules/moment/locale/yo.js",
+	"./zh-cn": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
+	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
+	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/about-extra/about-extra.component.html":
 /*!**********************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/about-extra/about-extra.component.html ***!
@@ -52,7 +338,7 @@ module.exports = "<h1>About page</h1>\n<div class=\"container\">\n    <div class
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar\">\n  <h1>\n    <a href=\"#\">My Angular Blog</a>\n  </h1>\n  <ul>\n    <li routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{exact:true}\">\n      <a [routerLink]=\"['/']\">Home</a>\n    </li>\n    <li routerLinkActive=\"active\"><a [routerLink]=\"['/todos']\">Todos</a></li>\n    <li routerLinkActive=\"active\"><a [routerLink]=\"['/about']\">About</a></li>\n\n  </ul>\n</nav>\n\n<div class=\"container\">\n  <div class=\"card\">\n    <router-outlet></router-outlet>\n  </div>\n</div>\n\n\n\n"
+module.exports = "<nav class=\"navbar\">\n  <h1>\n    <a href=\"#\">My Angular Blog</a>\n  </h1>\n  <ul>\n    <li routerLinkActive=\"active\" [routerLinkActiveOptions]=\"{exact:true}\">\n      <a [routerLink]=\"['/']\">Home</a>\n    </li>\n    <li routerLinkActive=\"active\"><a [routerLink]=\"['/todos']\">Todos</a></li>\n    <li routerLinkActive=\"active\"><a [routerLink]=\"['/player']\">Audio Player</a></li>\n    <li routerLinkActive=\"active\"><a [routerLink]=\"['/about']\">About</a></li>\n\n  </ul>\n</nav>\n\n<div class=\"container\">\n  <div class=\"card\">\n    <router-outlet></router-outlet>\n  </div>\n</div>\n\n\n\n"
 
 /***/ }),
 
@@ -74,7 +360,18 @@ module.exports = "<h1>ERROR 404</h1>\n<a routerLink=\"/\">Home</a>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Welcome to my blog page!</h1>\n<hr>\n<p>  <img src=\"https://camo.githubusercontent.com/ab45f7830b4fbc2a312da97c5bf0223a53350520/68747470733a2f2f6432656970397366336f6f3663322e636c6f756466726f6e742e6e65742f7365726965732f7371756172655f636f766572732f3030302f3030302f3033332f7468756d622f656767686561642d616e67756c61722d6d6174657269616c2d636f757273652d73712e706e67\">\n  This Angular website is devoted to study of Angular8 framework.\n  The source code of these application you can find here http://github.com/aneova.\n  If you have any questions or suggestions about codes and performance, do not hesitate to contact me Anna dot Neova@gmail.com\n  </p>\n  <a href=\"https://github.com/aneova\" target=\"_blank\"><strong>https://github.com/aneova</strong></a><br>\n\n\n  <button class=\"btn\" (click)=\"goToDoPage()\">Go to TODOS page</button>\n"
+module.exports = "<h1>Welcome to my blog page!</h1>\n<hr>\n<p>  <img src=\"https://camo.githubusercontent.com/ab45f7830b4fbc2a312da97c5bf0223a53350520/68747470733a2f2f6432656970397366336f6f3663322e636c6f756466726f6e742e6e65742f7365726965732f7371756172655f636f766572732f3030302f3030302f3033332f7468756d622f656767686561642d616e67756c61722d6d6174657269616c2d636f757273652d73712e706e67\">\n  <span style=\"text-indent:25px;\"><strong>T</strong>he author of this blog is looking for a good job!\n  This Angular website is devoted to study of Angular8 framework.\n  The source code can be found here http://github.com/aneova.\n  If you have any questions or suggestions about codes and performance, do not hesitate to contact me Anna dot Neova@gmail.com\n  </span>\n  </p>\n  <a href=\"https://github.com/aneova\" target=\"_blank\"><strong>https://github.com/aneova</strong></a><br>\n\n\n  <button class=\"btn\" (click)=\"goToDoPage()\">Go to TODOS page</button>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/player/player.component.html":
+/*!************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/player/player.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- My first angular player -->\r\n<div class=\"row\">\r\n<div [ngClass]=\"{'terminal':backgroundToggle, 'terminal-red': !backgroundToggle}\" >\r\n    <pre> {{ listMusic.strTime }}  {{ currentFile }}</pre>\r\n    <mat-toolbar color=\"basic\">\r\n        <mat-progress-bar\r\n                class=\"audio-progress-bar\"  name=\"mbar\" mode=\"determinate \" (click)=\"getPosition()\" [value]=\"listMusic.myDate|async\">\r\n        </mat-progress-bar>\r\n        <button mat-button  (click)=\"OnPause(currentId)\">\r\n            <mat-icon mat-list-icon>fast_rewind</mat-icon>\r\n        </button>\r\n\r\n        <button mat-button  (click)=\"OnPlay(currentId)\" [disabled]=\"state\" *ngIf=\"!state\">\r\n            <mat-icon mat-list-icon>play_circle_filled</mat-icon>\r\n        </button>\r\n        <button mat-button color=\"accent\" (click)=\"OnPause(currentId)\" *ngIf=\"state\">\r\n            <mat-icon mat-list-icon>pause</mat-icon>\r\n        </button>\r\n\r\n        <button mat-button  (click)=\"OnPause(currentId)\">\r\n            <mat-icon mat-list-icon>fast_forward</mat-icon>\r\n        </button>\r\n        <button mat-button (click)=\"OnStop(currentId)\">\r\n            <mat-icon mat-list-icon>stop_circle_filled</mat-icon>\r\n        </button>\r\n    </mat-toolbar>\r\n</div>\r\n\r\n<hr style=\"width: 600px;margin:0px;\">\r\n<strong> Playlist </strong>\r\n<div *ngFor=\"let f of listMusic.files\">\r\n    <p class=\"musicList\" (click)=\"OnPlay(f.id)\">{{f.name}} {{f.artist}}</p>\r\n</div>\r\n</div>\r\n<p> {{ currentValue }} </p>\r\n"
 
 /***/ }),
 
@@ -221,6 +518,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _todos_todos_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./todos/todos.component */ "./src/app/todos/todos.component.ts");
 /* harmony import */ var _todo_form_todo_form_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./todo-form/todo-form.component */ "./src/app/todo-form/todo-form.component.ts");
 /* harmony import */ var _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./error-page/error-page.component */ "./src/app/error-page/error-page.component.ts");
+/* harmony import */ var _player_player_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./player/player.component */ "./src/app/player/player.component.ts");
+
 
 
 
@@ -237,6 +536,7 @@ const routes = [
     { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
     { path: 'todos', component: _todos_todos_component__WEBPACK_IMPORTED_MODULE_8__["TodosComponent"] },
     { path: 'todosform', component: _todo_form_todo_form_component__WEBPACK_IMPORTED_MODULE_9__["TodoFormComponent"] },
+    { path: 'player', component: _player_player_component__WEBPACK_IMPORTED_MODULE_11__["PlayerComponent"] },
     { path: 'posts', component: _posts_posts_component__WEBPACK_IMPORTED_MODULE_6__["PostsComponent"] },
     { path: 'posts/:id', component: _post_post_component__WEBPACK_IMPORTED_MODULE_5__["PostComponent"] },
     { path: 'about/extra', component: _about_extra_about_extra_component__WEBPACK_IMPORTED_MODULE_7__["AboutExtraComponent"] },
@@ -323,6 +623,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _todo_form_todo_form_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./todo-form/todo-form.component */ "./src/app/todo-form/todo-form.component.ts");
 /* harmony import */ var _shared_todos_flter_pipe__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./shared/todos-flter.pipe */ "./src/app/shared/todos-flter.pipe.ts");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm2015/http.js");
+/* harmony import */ var _player_player_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./player/player.component */ "./src/app/player/player.component.ts");
+/* harmony import */ var _material_module__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./material.module */ "./src/app/material.module.ts");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/esm2015/toolbar.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/esm2015/progress-bar.js");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm2015/animations.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/esm2015/icon.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm2015/material.js");
+
+
+
+
+
+
+
 
 
 
@@ -354,14 +668,22 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _todos_todos_component__WEBPACK_IMPORTED_MODULE_13__["TodosComponent"],
             _todo_form_todo_form_component__WEBPACK_IMPORTED_MODULE_14__["TodoFormComponent"],
             _shared_todos_flter_pipe__WEBPACK_IMPORTED_MODULE_15__["TodosFlterPipe"],
-            _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_12__["ErrorPageComponent"]
+            _error_page_error_page_component__WEBPACK_IMPORTED_MODULE_12__["ErrorPageComponent"],
+            _player_player_component__WEBPACK_IMPORTED_MODULE_17__["PlayerComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
             _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
             _angular_router__WEBPACK_IMPORTED_MODULE_10__["RouterModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_16__["HttpClientModule"]
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_16__["HttpClientModule"],
+            _material_module__WEBPACK_IMPORTED_MODULE_18__["MaterialModule"],
+            _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__["MatToolbarModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_21__["BrowserAnimationsModule"],
+            _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_20__["MatProgressBarModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_22__["MatIconModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_23__["MatListModule"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_23__["MatButtonModule"],
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
@@ -462,6 +784,120 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [__webpack_require__(/*! ./home.component.scss */ "./src/app/home/home.component.scss")]
     })
 ], HomeComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/material.module.ts":
+/*!************************************!*\
+  !*** ./src/app/material.module.ts ***!
+  \************************************/
+/*! exports provided: MaterialModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm2015/common.js");
+
+
+
+let MaterialModule = class MaterialModule {
+};
+MaterialModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        declarations: [],
+        imports: [
+            _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]
+        ]
+    })
+], MaterialModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/player/player.component.scss":
+/*!**********************************************!*\
+  !*** ./src/app/player/player.component.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "@charset \"UTF-8\";\n.terminal {\n  position: relative;\n  width: 80%;\n  max-width: 600px;\n  border-radius: 6px;\n  padding-top: 45px;\n  margin-top: 8px;\n  overflow: hidden;\n  background-color: #0f0f10;\n}\n.terminal::before {\n  content: \"•••\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 4px;\n  background: #083a3a;\n  color: #c2c3c4;\n  width: 100%;\n  font-size: 2rem;\n  line-height: 0;\n  padding: 14px 0;\n  text-indent: 4px;\n}\n.audio-progress-bar {\n  /* remove animation and the dots*/\n}\n.audio-progress-bar.mat-progress-bar {\n  display: block;\n  width: 300px;\n  height: 10px;\n}\n.audio-progress-bar .mat-progress-bar-fill::after {\n  background-color: #37474f;\n}\n.audio-progress-bar .mat-progress-bar-buffer {\n  background-color: #90a4ae;\n}\n.audio-progress-bar .mat-progress-bar-background {\n  -webkit-animation: none;\n          animation: none;\n  background-color: #800000;\n  fill: #eceff1;\n}\n.media-action-bar {\n  width: 100%;\n  padding: 2.5rem;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n.mat-icon {\n  height: 48px !important;\n  width: 48px !important;\n  font-size: 48px !important;\n}\n.terminal pre {\n  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;\n  color: white;\n  padding: 0 1rem 1rem;\n  margin: 0;\n}\n.terminal-red {\n  position: relative;\n  width: 80%;\n  max-width: 600px;\n  border-radius: 6px;\n  padding-top: 45px;\n  margin-top: 8px;\n  overflow: hidden;\n  background-color: #f2f1ff;\n}\n.musicList {\n  position: relative;\n  max-width: 600px;\n  border-radius: 6px;\n  padding-top: 5px;\n  margin-top: 5px;\n  background-color: #f2f1ff;\n}\n.row {\n  padding-left: 160px;\n  display: block;\n  margin-bottom: 15px;\n}\np {\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGxheWVyL3BsYXllci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvcGxheWVyL0M6XFxVc2Vyc1xcQW5uZWdhXFxXZWJzdG9ybVByb2plY3RzXFxteUJsb2cvc3JjXFxhcHBcXHBsYXllclxccGxheWVyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQjtBQ0FoQjtFQUNFLGtCQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0FERUY7QUNDQTtFQUNFLGNBQUE7RUFDQSxrQkFBQTtFQUNBLE1BQUE7RUFDQSxPQUFBO0VBQ0EsV0FBQTtFQUNBLG1CQUFBO0VBQ0EsY0FBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtBREVGO0FDQ0E7RUFlRSxpQ0FBQTtBRFpGO0FDRkU7RUFDRSxjQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7QURJSjtBQ0RFO0VBQ0UseUJBQUE7QURHSjtBQ0FFO0VBQ0UseUJBQUE7QURFSjtBQ0VFO0VBQ0UsdUJBQUE7VUFBQSxlQUFBO0VBQ0EseUJBQUE7RUFDQSxhQUFBO0FEQUo7QUNJQTtFQUNFLFdBQUE7RUFDQSxlQUFBO0VBQ0Esd0JBQUE7VUFBQSx1QkFBQTtBRERGO0FDR0E7RUFDRSx1QkFBQTtFQUNBLHNCQUFBO0VBQ0EsMEJBQUE7QURBRjtBQ0dBO0VBQ0Usd0VBQUE7RUFDQSxZQUFBO0VBQ0Esb0JBQUE7RUFDQSxTQUFBO0FEQUY7QUNHQTtFQUNFLGtCQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLHlCQUFBO0FEQUY7QUNFQTtFQUVFLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLHlCQUFBO0FEQUY7QUNHQTtFQUNFLG1CQUFBO0VBQ0EsY0FBQTtFQUNBLG1CQUFBO0FEQUY7QUNHQTtFQUNFLGVBQUE7QURBRiIsImZpbGUiOiJzcmMvYXBwL3BsYXllci9wbGF5ZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAY2hhcnNldCBcIlVURi04XCI7XG4udGVybWluYWwge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHdpZHRoOiA4MCU7XG4gIG1heC13aWR0aDogNjAwcHg7XG4gIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgcGFkZGluZy10b3A6IDQ1cHg7XG4gIG1hcmdpbi10b3A6IDhweDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzBmMGYxMDtcbn1cblxuLnRlcm1pbmFsOjpiZWZvcmUge1xuICBjb250ZW50OiBcIuKAouKAouKAolwiO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMDtcbiAgbGVmdDogMDtcbiAgaGVpZ2h0OiA0cHg7XG4gIGJhY2tncm91bmQ6ICMwODNhM2E7XG4gIGNvbG9yOiAjYzJjM2M0O1xuICB3aWR0aDogMTAwJTtcbiAgZm9udC1zaXplOiAycmVtO1xuICBsaW5lLWhlaWdodDogMDtcbiAgcGFkZGluZzogMTRweCAwO1xuICB0ZXh0LWluZGVudDogNHB4O1xufVxuXG4uYXVkaW8tcHJvZ3Jlc3MtYmFyIHtcbiAgLyogcmVtb3ZlIGFuaW1hdGlvbiBhbmQgdGhlIGRvdHMqL1xufVxuLmF1ZGlvLXByb2dyZXNzLWJhci5tYXQtcHJvZ3Jlc3MtYmFyIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiAzMDBweDtcbiAgaGVpZ2h0OiAxMHB4O1xufVxuLmF1ZGlvLXByb2dyZXNzLWJhciAubWF0LXByb2dyZXNzLWJhci1maWxsOjphZnRlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzNzQ3NGY7XG59XG4uYXVkaW8tcHJvZ3Jlc3MtYmFyIC5tYXQtcHJvZ3Jlc3MtYmFyLWJ1ZmZlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM5MGE0YWU7XG59XG4uYXVkaW8tcHJvZ3Jlc3MtYmFyIC5tYXQtcHJvZ3Jlc3MtYmFyLWJhY2tncm91bmQge1xuICBhbmltYXRpb246IG5vbmU7XG4gIGJhY2tncm91bmQtY29sb3I6ICM4MDAwMDA7XG4gIGZpbGw6ICNlY2VmZjE7XG59XG5cbi5tZWRpYS1hY3Rpb24tYmFyIHtcbiAgd2lkdGg6IDEwMCU7XG4gIHBhZGRpbmc6IDIuNXJlbTtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbi5tYXQtaWNvbiB7XG4gIGhlaWdodDogNDhweCAhaW1wb3J0YW50O1xuICB3aWR0aDogNDhweCAhaW1wb3J0YW50O1xuICBmb250LXNpemU6IDQ4cHggIWltcG9ydGFudDtcbn1cblxuLnRlcm1pbmFsIHByZSB7XG4gIGZvbnQtZmFtaWx5OiBTRk1vbm8tUmVndWxhciwgQ29uc29sYXMsIExpYmVyYXRpb24gTW9ubywgTWVubG8sIG1vbm9zcGFjZTtcbiAgY29sb3I6IHdoaXRlO1xuICBwYWRkaW5nOiAwIDFyZW0gMXJlbTtcbiAgbWFyZ2luOiAwO1xufVxuXG4udGVybWluYWwtcmVkIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogODAlO1xuICBtYXgtd2lkdGg6IDYwMHB4O1xuICBib3JkZXItcmFkaXVzOiA2cHg7XG4gIHBhZGRpbmctdG9wOiA0NXB4O1xuICBtYXJnaW4tdG9wOiA4cHg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGJhY2tncm91bmQtY29sb3I6ICNmMmYxZmY7XG59XG5cbi5tdXNpY0xpc3Qge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIG1heC13aWR0aDogNjAwcHg7XG4gIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgcGFkZGluZy10b3A6IDVweDtcbiAgbWFyZ2luLXRvcDogNXB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjJmMWZmO1xufVxuXG4ucm93IHtcbiAgcGFkZGluZy1sZWZ0OiAxNjBweDtcbiAgZGlzcGxheTogYmxvY2s7XG4gIG1hcmdpbi1ib3R0b206IDE1cHg7XG59XG5cbnAge1xuICBjdXJzb3I6IHBvaW50ZXI7XG59IiwiLnRlcm1pbmFsIHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgd2lkdGg6IDgwJTtcclxuICBtYXgtd2lkdGg6IDYwMHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDZweDtcclxuICBwYWRkaW5nLXRvcDogNDVweDtcclxuICBtYXJnaW4tdG9wOiA4cHg7XHJcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMTUsIDE1LCAxNik7XHJcbn1cclxuXHJcbi50ZXJtaW5hbDo6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcMjAyMiBcXDIwMjIgXFwyMDIyXCI7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogMDtcclxuICBsZWZ0OiAwO1xyXG4gIGhlaWdodDogNHB4O1xyXG4gIGJhY2tncm91bmQ6IHJnYig4LCA1OCwgNTgpO1xyXG4gIGNvbG9yOiAjYzJjM2M0O1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGZvbnQtc2l6ZTogMnJlbTtcclxuICBsaW5lLWhlaWdodDogMDtcclxuICBwYWRkaW5nOiAxNHB4IDA7XHJcbiAgdGV4dC1pbmRlbnQ6IDRweDtcclxufVxyXG5cclxuLmF1ZGlvLXByb2dyZXNzLWJhciB7XHJcbiAgJi5tYXQtcHJvZ3Jlc3MtYmFyIHtcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDMwMHB4O1xyXG4gICAgaGVpZ2h0OiAxMHB4O1xyXG4gIH1cclxuXHJcbiAgLm1hdC1wcm9ncmVzcy1iYXItZmlsbDo6YWZ0ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzM3NDc0ZjtcclxuICB9XHJcblxyXG4gIC5tYXQtcHJvZ3Jlc3MtYmFyLWJ1ZmZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjOTBhNGFlO1xyXG4gIH1cclxuXHJcbiAgLyogcmVtb3ZlIGFuaW1hdGlvbiBhbmQgdGhlIGRvdHMqL1xyXG4gIC5tYXQtcHJvZ3Jlc3MtYmFyLWJhY2tncm91bmQge1xyXG4gICAgYW5pbWF0aW9uOiBub25lO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogICM4MDAwMDA7XHJcbiAgICBmaWxsOiAjZWNlZmYxO1xyXG4gIH1cclxufVxyXG5cclxuLm1lZGlhLWFjdGlvbi1iYXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIHBhZGRpbmc6IDIuNXJlbTtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxufVxyXG4ubWF0LWljb24ge1xyXG4gIGhlaWdodDogNDhweCAhaW1wb3J0YW50O1xyXG4gIHdpZHRoOiA0OHB4ICFpbXBvcnRhbnQ7XHJcbiAgZm9udC1zaXplOiA0OHB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi50ZXJtaW5hbCBwcmUge1xyXG4gIGZvbnQtZmFtaWx5OiBTRk1vbm8tUmVndWxhcixDb25zb2xhcyxMaWJlcmF0aW9uIE1vbm8sTWVubG8sbW9ub3NwYWNlO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBwYWRkaW5nOiAwIDFyZW0gMXJlbTtcclxuICBtYXJnaW46IDA7XHJcbn1cclxuXHJcbi50ZXJtaW5hbC1yZWQge1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICB3aWR0aDogODAlO1xyXG4gIG1heC13aWR0aDogNjAwcHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNnB4O1xyXG4gIHBhZGRpbmctdG9wOiA0NXB4O1xyXG4gIG1hcmdpbi10b3A6IDhweDtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyNDIsIDI0MSwgMjU1KTtcclxufVxyXG4ubXVzaWNMaXN0XHJcbntcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgbWF4LXdpZHRoOiA2MDBweDtcclxuICBib3JkZXItcmFkaXVzOiA2cHg7XHJcbiAgcGFkZGluZy10b3A6IDVweDtcclxuICBtYXJnaW4tdG9wOiA1cHg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDI0MiwgMjQxLCAyNTUpO1xyXG59XHJcblxyXG4ucm93e1xyXG4gIHBhZGRpbmctbGVmdDogMTYwcHg7XHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgbWFyZ2luLWJvdHRvbTogMTVweDtcclxufVxyXG5cclxucHtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuIl19 */"
+
+/***/ }),
+
+/***/ "./src/app/player/player.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/player/player.component.ts ***!
+  \********************************************/
+/*! exports provided: PlayerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlayerComponent", function() { return PlayerComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _shared_list_music_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/list-music.service */ "./src/app/shared/list-music.service.ts");
+
+
+
+let PlayerComponent = class PlayerComponent {
+    constructor(listMusic) {
+        this.listMusic = listMusic;
+        this.state = false;
+        this.files = [];
+        this.currentFile = this.listMusic.files[0].artist;
+        this.currentId = 0;
+        this.backgroundToggle = true;
+        this.musicFiles = this.listMusic.files;
+    }
+    ngOnInit() {
+    }
+    OnPlay(id) {
+        this.listMusic.onplay(id);
+        this.currentFile = this.listMusic.getTrackName(id);
+        this.currentId = id;
+        this.state = true;
+    }
+    OnStop(id) {
+        this.listMusic.onstop(id);
+    }
+    OnPause(id) {
+        this.listMusic.onpause(id);
+        this.state = false;
+    }
+    getLenght() {
+        this.currentValue = this.listMusic.getlenght();
+        return this.currentValue;
+    }
+    focusTitle() {
+        this.inputRef.nativeElement.focus();
+    }
+    getPosition() {
+        // fromEvent(document.body, 'mousemove').subscribe( e => {
+        //   console.log(e.pageX, e.pageY);
+        // });
+    }
+};
+PlayerComponent.ctorParameters = () => [
+    { type: _shared_list_music_service__WEBPACK_IMPORTED_MODULE_2__["ListMusicService"] }
+];
+tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('titleInput', { static: false })
+], PlayerComponent.prototype, "inputRef", void 0);
+PlayerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-pleer',
+        template: __webpack_require__(/*! raw-loader!./player.component.html */ "./node_modules/raw-loader/index.js!./src/app/player/player.component.html"),
+        styles: [__webpack_require__(/*! ./player.component.scss */ "./src/app/player/player.component.scss")]
+    })
+], PlayerComponent);
 
 
 
@@ -605,6 +1041,97 @@ PostsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [__webpack_require__(/*! ./posts.component.scss */ "./src/app/posts/posts.component.scss")]
     })
 ], PostsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/list-music.service.ts":
+/*!**********************************************!*\
+  !*** ./src/app/shared/list-music.service.ts ***!
+  \**********************************************/
+/*! exports provided: ListMusicService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListMusicService", function() { return ListMusicService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+let ListMusicService = class ListMusicService {
+    constructor() {
+        this.files = [
+            {
+                url: 'https://ia801900.us.archive.org/7/items/100ClassicalMusicMasterpieces/1685%20Purcell%20%2C%20Trumpet%20Tune%20and%20Air.mp3',
+                name: 'Trumpet Tune and Air',
+                artist: 'Purcell',
+                id: 0
+            },
+            {
+                // tslint:disable-next-line: max-line-length
+                url: 'https://ia801900.us.archive.org/7/items/100ClassicalMusicMasterpieces/1709%20Bach%20%2C%20Toccata%20in%20D%20minor.mp3',
+                name: '1709 Bach Toccata in D minor',
+                artist: 'J.S. Bach',
+                id: 1
+            },
+            {
+                // tslint:disable-next-line: max-line-length
+                url: 'https://ia801900.us.archive.org/7/items/100ClassicalMusicMasterpieces/1725%20Vivaldi%20%2C%20The%20Four%20Seasons%20-%20Spring.mp3',
+                name: 'Vivaldi The four seasons. Spring.',
+                artist: 'Vivaldi',
+                id: 2
+            }
+        ];
+        this.audioObj = new Audio();
+        this.p = new Promise(resolve => {
+            setTimeout(() => { resolve('Promise resolved'); }, 4000);
+        });
+        this.myDate = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Observable"](obs => {
+            setInterval(() => {
+                obs.next(100 - 100 * (this.audioObj.duration - this.audioObj.currentTime) / this.audioObj.duration);
+                this.strTime = this.getformatedTime(this.audioObj.currentTime);
+            }, 500);
+        });
+    }
+    getformatedTime(time, format = 'HH:mm:ss') {
+        const momentTime = time * 1000;
+        return moment__WEBPACK_IMPORTED_MODULE_3__["utc"](momentTime).format(format);
+    }
+    getTrack() {
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(this.files); // get a new track from array files
+    }
+    onplay(id) {
+        // Play audio
+        this.audioObj.src = this.files[id].url;
+        this.audioObj.load();
+        this.audioObj.play();
+    }
+    onpause(id) {
+        this.audioObj.pause();
+    }
+    onstop(id) {
+        this.audioObj.pause();
+    }
+    getTrackName(id) {
+        const str = this.files[id].artist;
+        return str;
+    }
+    getlenght() {
+        return this.audioObj.currentTime;
+    }
+};
+ListMusicService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    })
+], ListMusicService);
 
 
 
@@ -854,18 +1381,21 @@ const environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! hammerjs */ "./node_modules/hammerjs/hammer.js");
+/* harmony import */ var hammerjs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(hammerjs__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm2015/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 
 
 
 
-if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_4__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["enableProdMode"])();
 }
-Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_3__["AppModule"])
     .catch(err => console.error(err));
 
 

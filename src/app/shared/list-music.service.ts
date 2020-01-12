@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { of } from 'rxjs';
+import {Observable, of} from 'rxjs';
+import * as moment from 'moment';
 
 @Injectable({
   providedIn: 'root'
@@ -33,12 +34,30 @@ export class ListMusicService {
   ];
   private audioObj = new Audio();
 
+ private p: Promise<string> = new Promise<string> (resolve => {
+     setTimeout(() => {resolve('Promise resolved'); }, 4000);
+ })
+
+    getformatedTime(time: number, format: string = 'HH:mm:ss') {
+        const momentTime = time * 1000;
+        return moment.utc(momentTime).format(format);
+    }
+
+    strTime: string;
+    myDate: Observable<any> = new Observable(obs => {
+        setInterval(() => {
+        obs.next(100 - 100 * (this.audioObj.duration - this.audioObj.currentTime) /this.audioObj.duration);
+        this.strTime =  this.getformatedTime(this.audioObj.currentTime);
+        }, 500);
+
+
+    });
+
   getTrack() {
     return of(this.files); // get a new track from array files
   }
 
   onplay(id: number) {
-    console.log('Name = ', id);
     // Play audio
     this.audioObj.src = this.files[id].url;
     this.audioObj.load();

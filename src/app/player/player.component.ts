@@ -1,6 +1,6 @@
 import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {ListMusicService} from '../shared/list-music.service';
-import {HttpClient} from '@angular/common/http';
+import {fromEvent, Observable} from 'rxjs';
 
 @Component({
   selector: 'app-pleer',
@@ -11,7 +11,7 @@ import {HttpClient} from '@angular/common/http';
 export class PlayerComponent implements OnInit {
   state = false;
   files: Array<any> = [];
-  currentFile: string;
+  currentFile: string = this.listMusic.files[0].artist;
   currentId = 0;
   currentValue: number;
   backgroundToggle = true;
@@ -29,7 +29,6 @@ export class PlayerComponent implements OnInit {
     this.currentFile  = this.listMusic.getTrackName(id);
     this.currentId = id;
     this.state = true;
-    this.currentValue = 50;
   }
 
   OnStop(id: number) {
@@ -50,5 +49,10 @@ export class PlayerComponent implements OnInit {
     this.inputRef.nativeElement.focus();
   }
 
+  getPosition() {
+    // fromEvent(document.body, 'mousemove').subscribe( e => {
+    //   console.log(e.pageX, e.pageY);
+    // });
+  }
 
 }
