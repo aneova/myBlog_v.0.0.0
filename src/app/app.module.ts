@@ -2,7 +2,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {AboutComponent} from './about/about.component';
 import {HomeComponent} from './home/home.component';
 import {PostsComponent} from './posts/posts.component';
@@ -24,6 +24,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule, MatListModule} from '@angular/material';
 import { ModelWindowComponent } from './model-window/model-window.component';
 import {RefDirective} from './ref.directive';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import {RefDirective} from './ref.directive';
     ErrorPageComponent,
     PlayerComponent,
     ModelWindowComponent,
-      RefDirective
+      RefDirective,
+      RegistrationComponent
   ],
     imports: [
         BrowserModule,
@@ -54,9 +56,11 @@ import {RefDirective} from './ref.directive';
         MatIconModule,
         MatListModule,
         MatButtonModule,
+        ReactiveFormsModule
         // MatProgressBarModule,
     ],
   providers: [],
+    entryComponents:[ModelWindowComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {

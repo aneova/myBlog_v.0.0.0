@@ -9,8 +9,7 @@ import {TodosComponent} from './todos/todos.component';
 import {TodoFormComponent} from './todo-form/todo-form.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import {PlayerComponent} from './player/player.component';
-import {ModelWindowComponent} from './model-window/model-window.component';
-
+import {RegistrationComponent} from './registration/registration.component';
 
 
 const routes: Routes = [
@@ -21,7 +20,7 @@ const routes: Routes = [
     {path: 'player', component: PlayerComponent},
     {path: 'posts', component: PostsComponent},
     {path: 'posts/:id', component: PostComponent},
-    {path: 'model', component: ModelWindowComponent},
+    {path: 'registration', component: RegistrationComponent},
     {path: 'about/extra', component: AboutExtraComponent},
     {path: 'error', component: ErrorPageComponent},
     {path: '**', redirectTo: 'error'}

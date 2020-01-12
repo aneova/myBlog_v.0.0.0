@@ -8,6 +8,7 @@
     </li>
     <li routerLinkActive="active"><a [routerLink]="['/todos']">Todos</a></li>
     <li routerLinkActive="active"><a [routerLink]="['/player']">Audio Player</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/registration']">Registration</a></li>
     <li routerLinkActive="active"><a [routerLink]="['/about']">About</a></li>
 
   </ul>
@@ -16,8 +17,8 @@
 <div class="container">
   <div class="card">
     <router-outlet></router-outlet>
+<!--    <button class="btn" (click)="showWindow()"> Show modal window </button>-->
   </div>
-  <button class="btn" (click)="showWindow()"> Show modal window </button>
 </div>
 
 <ng-template appRef>

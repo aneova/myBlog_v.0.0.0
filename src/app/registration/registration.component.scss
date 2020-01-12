@@ -1,0 +1,17 @@
+h3{
+  padding-left: 70px;
+  font-family: Cambria;
+  font-size: large;
+}
+
+input {
+  &.ng-invalid.ng-touched
+  {
+    border: 2px solid red;
+  }
+
+  &.ng-valid.ng-touched
+  {
+   border: 2px solid #2bca0b;
+ }
+}

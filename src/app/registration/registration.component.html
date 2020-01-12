@@ -1,0 +1,54 @@
+<div class="container">
+    <h3> This is an example of how to setup form validation in Angular 8 using Reactive Forms</h3>
+    <form [formGroup]="form"  (ngSubmit)="submit()">
+        <div class="form-control">
+            <label>Email</label>
+            <input type="text" placeholder="Email" formControlName="email">
+            <div class="validation" *ngIf="form.get('email').invalid && form.get('email').touched">
+                <small>ERROR: Not a Valid Email Address!</small>
+            </div>
+        </div>
+        <div class="form-control">
+            <label>Password</label>
+                <input type="password" placeholder="Password" formControlName="password">
+            <div class="validation" *ngIf="form.get('password').invalid && form.get('password').touched">
+                <small>ERROR: The password must be at least 6 characters long!</small>
+            </div>
+        </div>
+
+        <div class="card" formGroupName="address">
+            <h2>Address</h2>
+
+            <div class="form-control">
+                <label>Country</label>
+
+                <select formControlName="country" (click)="setCapital()">
+                    <option value="bg">Bulgaria</option>
+                    <option value="de">Germany</option>
+                    <option value="ru">Russia</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <input type="text" formControlName="city">
+            </div>
+
+<!--            <button class="btn" type="button" (click)="setCapital()">Choose a capital city</button>-->
+        </div>
+
+        <div class="card">
+            <h2>Your skills</h2>
+            <button class="btn" (click)="addSkill()">Add skills</button>
+            <div class="form-control" *ngFor="let control of form.get('skills').controls; let idx=index">
+                <label>{{idx}}</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <button class="btn" type="submit" [disabled]="form.invalid">Submit form</button>
+
+    </form>
+</div>
+
+
+
