@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1d54cab-c92c-4f1e-9301-6c26ffda0685" name="Default Changelist" comment="" />
+    <list default="true" id="e1d54cab-c92c-4f1e-9301-6c26ffda0685" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/registration/registration.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/registration/registration.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,9 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="myBlog" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="215ce498-25de-4b60-8f90-3184e894d146" />
@@ -102,6 +110,7 @@
       <workItem from="1578682863699" duration="4485000" />
       <workItem from="1578688621601" duration="5345000" />
       <workItem from="1578733081590" duration="20323000" />
+      <workItem from="1578855470976" duration="495000" />
     </task>
     <servers />
   </component>
@@ -129,22 +138,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="841" y="419" width="261" height="276" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578824209579" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578593181766">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1578855970734">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578593181766" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578593181765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578855970734" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center" timestamp="1578855970734">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578593181765" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578593181764">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578855970734" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left" timestamp="1578855970734">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578593181764" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578593181766">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578855970734" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right" timestamp="1578855970734">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578593181766" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578855970734" />
     <state x="463" y="167" key="SettingsEditor" timestamp="1578823307778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
